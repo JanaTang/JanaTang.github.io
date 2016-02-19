@@ -1,0 +1,11 @@
+
+encoding: utf-8
+name: Your New Jekyll Site
+markdown: redcarpet
+pygments: true
+baseurl: /
+url: /
+gems: [jekyll-paginate]
+relative_permalinks: false
+paginate: 6
+paginate_path: "/blogindex/page:num/"

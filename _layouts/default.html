@@ -2,22 +2,22 @@
 <html>
 
 {% include head.html %}
-<body>
-<div class="header">
-	<h1>我的博客</h1>
-	<ul class="menu">
-		<li class="cur-tab"><a href='/'>Home</a></li>
-		<li><a href='/blog.html'>Blog</a></li>
-		<li><a href='/about.html'>About</a></li>
-		<li><a href='/talks.html'>Talks</a></li>
-	</ul>
-</div>
-<div class="content">
-	{{ content }}
-	<div class='clearfix'></div>
-</div>
-<div class="footer"></div>
-</body>
-<script src="./js/myjs/main.js" type="text/javascript" charset="utf-8"></script>
-
+	<body>
+		<div class="header"></div>
+		<div class="menu">
+			<ul>
+				<li class=""><a href='/'>首页</a></li>
+				<li><a href='/about.html'>关于我</a></li>
+				<li><a href='/article.html'>学无止境</a></li>
+				<li><a href='/photoes.html'>相册</a></li>
+				<li><a href='/talks.html'>留言</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			{{ content }}
+			<div class='clearfix'></div>
+		</div>
+		<div class="footer"></div>
+	</body>
+<script src="/js/myjs/main.js" type="text/javascript" charset="utf-8"></script>
 </html>

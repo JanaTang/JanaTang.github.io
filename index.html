@@ -4,17 +4,5 @@ layout: default
 
 <div class="home">
 
-  {% for category in site.categories %}
-  <h2>{{ category | first }}</h2>
-  </span>{{ category | last | size }}</span>
-  <ul class="arc-list">
-    {% for post in category.last %}
-    <li>{{ post.date | date:"%Y-%M-%d"}}
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-  {% endfor %}
-
-
 </div>
+<script src="/js/myjs/index.js" type="text/javascript" charset="utf-8"></script>
